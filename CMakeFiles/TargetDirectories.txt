@@ -1,3 +1,0 @@
-/home/sook/repos/sandbox/get_rdf_from_heif/CMakeFiles/get_rdf_from_heif.dir
-/home/sook/repos/sandbox/get_rdf_from_heif/CMakeFiles/edit_cache.dir
-/home/sook/repos/sandbox/get_rdf_from_heif/CMakeFiles/rebuild_cache.dir

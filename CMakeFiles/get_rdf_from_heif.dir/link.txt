@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/get_rdf_from_heif.dir/main.cpp.o -o get_rdf_from_heif  -Wl,-rpath,/home/sook/repos/libheif/out/build/develop/libheif /home/sook/repos/libheif/out/build/develop/libheif/libheif.so 

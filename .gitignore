@@ -42,3 +42,4 @@
 
 build/
 CMakeCache.txt
+CMakeFiles/
