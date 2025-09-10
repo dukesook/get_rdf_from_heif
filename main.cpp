@@ -7,17 +7,13 @@ using namespace std;
 
 uint8_t *data;
 size_t data_size;
+const char *filename = "dataset9_capture1_rdf.heif";
 
 int main() {
 
   // Read GIMI File
-  const char *filename = "dataset9_capture1_rdf.heif";
   struct heif_context *ctx = heif_context_alloc();
   heif_error error = heif_context_read_from_file(ctx, filename, NULL);
-  if (error.code != heif_error_Ok) {
-    cout << "Error reading HEIF file: " << error.message << endl;
-    return -1;
-  }
 
   // Get the number of items
   int item_count = heif_context_get_number_of_items(ctx);
